@@ -9,9 +9,9 @@ import org.testng.annotations.Test;
 public class NormalDemoTest {
 	WebDriver driver;
 	
-	@Test
+	@Test(enabled=false)
 	public void demoTest() {
-        String baseUrl = "http://realestate.hommelle.com/";
+        String baseUrl = "http://realestate.hommelle.com";
 		System.out.println("Hello...");
 		System.setProperty("webdriver.chrome.driver", "C:\\chromedriver.exe");
 		driver = new ChromeDriver();
