@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 public class NormalDemoTest {
 	WebDriver driver;
 	
-	@Test(enabled=false)
+	@Test
 	public void demoTest() {
         String baseUrl = "http://realestate.hommelle.com";
 		System.out.println("Hello...");

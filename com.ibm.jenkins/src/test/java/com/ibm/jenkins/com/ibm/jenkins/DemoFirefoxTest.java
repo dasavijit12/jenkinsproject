@@ -10,7 +10,7 @@ public class DemoFirefoxTest {
 	
 	WebDriver driver;
 	
-	@Test
+	@Test(enabled=false)
 	public void demoFirefoxTest() {
 		String baseUrl = "http://realestate.hommelle.com";
 		
