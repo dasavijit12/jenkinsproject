@@ -12,7 +12,7 @@ public class NormalDemoTest {
 	@Test
 	public void demoTest() {
         String baseUrl = "http://realestate.hommelle.com/";
-		
+		System.out.println("Hello...");
 		System.setProperty("webdriver.chrome.driver", "C:\\chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
